@@ -13,14 +13,6 @@ bin/
 *.test
 coverage.txt
 
-# Certificates, Keys, and Data Exports
-*.pem
-*.key
-*.csr
-*.csv
-*.json
-ckmstui_export_*
-
 # Local Configuration & Secrets
 *.conf
 .vault-token

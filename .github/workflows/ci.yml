@@ -17,6 +17,8 @@ jobs:
           go-version-file: 'go.mod'
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v6
+        with:
+          version: latest
 
   lint-markdown:
     name: Lint Markdown
@@ -39,4 +41,4 @@ jobs:
           go-version-file: 'go.mod'
       - name: Build binaries
         run: |
-          go build -v ./main.go
+          go build -v .
