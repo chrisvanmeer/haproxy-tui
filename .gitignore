@@ -1,0 +1,34 @@
+# Executables
+bin/
+/haproxytui
+/haproxyTUI
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage outputs
+*.out
+*.test
+coverage.txt
+
+# Certificates, Keys, and Data Exports
+*.pem
+*.key
+*.csr
+*.csv
+*.json
+ckmstui_export_*
+
+# Local Configuration & Secrets
+*.conf
+.vault-token
+.env
+
+# IDE and System Files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
